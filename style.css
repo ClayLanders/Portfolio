@@ -1,0 +1,62 @@
+* {
+  font-family: sans-serif;
+}
+
+html {
+  background-color: #dddddd
+}
+
+
+img {
+  border-radius: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.about_section, .it_experience, .logistics_experience, .saas_experience {
+  width: 80vw;
+  border-radius: 10px;
+  background-color: white;
+  margin: 20px 10%;
+  padding: 20px;
+}
+
+.about_section {
+  text-align: center;
+}
+
+.contact_section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+input {
+  margin: 5px auto;
+}
+
+textarea {
+  margin: 5px auto;
+}
