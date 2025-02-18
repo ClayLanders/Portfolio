@@ -23,12 +23,15 @@ h1 {
   margin-top: 25px;
 }
 
-ul {
+.nav ul {
   list-style: none;
   justify-content: center;
   display: flex;
   margin: 25px;
-  gap: 20px;
+}
+
+.nav li {
+  padding: 20px;
 }
 
 a {
@@ -126,4 +129,45 @@ label {
 .gallery::after {
   content: "";
   width: 350px;
+}
+
+.resume {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+}
+
+.document {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.document .section_head {
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+.duties {
+  text-align: left;
+}
+
+.company_title {
+  float: left;
+  font-size: .9em;
+}
+
+.dates_location {
+  float: right;
+  font-size: .9em;
+}
+
+.duties {
+  padding-top: 90px;
+}
+
+.duties li {
+  padding-top: 2px;
+  font-size: .9em;
 }
