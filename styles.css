@@ -298,3 +298,9 @@ h2 {
 
     font-weight: 600;
 }
+
+.skill-icon {
+  font-size: 2rem;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
