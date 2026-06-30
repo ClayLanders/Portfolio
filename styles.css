@@ -300,7 +300,163 @@ h2 {
 }
 
 .skill-icon {
-  font-size: 2rem;
-  color: #2563eb;
-  margin-bottom: 15px;
+    font-size: 2rem;
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+/* ---------- Project Showcase ---------- */
+
+.project-wrapper {
+
+    display: grid;
+
+    grid-template-columns: .85fr 1.15fr;
+
+    gap: 60px;
+
+    align-items: center;
+
+    margin-bottom: 70px;
+}
+
+.project-description {
+
+    font-size: 1.08rem;
+
+    color: #d2dbec;
+
+    margin: 24px 0 34px;
+
+    max-width: 500px;
+}
+
+.tech-badges {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.badge {
+
+    padding: 8px 16px;
+
+    border-radius: 999px;
+
+    background: rgba(255, 255, 255, .08);
+
+    border: 1px solid rgba(255, 255, 255, .12);
+
+    font-size: .9rem;
+
+    font-weight: 600;
+}
+
+.python {
+    color: #ffd43b;
+}
+
+.fastapi {
+    color: #25d366;
+}
+
+.sqlite {
+    color: #7cb7ff;
+}
+
+.js {
+    color: #f7df1e;
+}
+
+.html {
+    color: #ff9f6e;
+}
+
+.project-right img {
+
+    width: 100%;
+
+    max-width: 850px;
+
+    border-radius: 18px;
+
+    display: block;
+
+    margin-left: auto;
+
+    box-shadow:
+        0 35px 70px rgba(0, 0, 0, .35);
+
+    border: 1px solid rgba(255, 255, 255, .08);
+}
+
+
+/* ---------- Overview / Features ---------- */
+
+.project-details {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+
+    margin-bottom: 60px;
+}
+
+.overview-card,
+.features-card {
+
+    border-top: 1px solid rgba(255, 255, 255, .10);
+
+    padding-top: 28px;
+}
+
+.overview-card h3,
+.features-card h3 {
+
+    color: #8fb7ff;
+
+    margin-bottom: 18px;
+
+    font-size: 1.2rem;
+}
+
+.overview-card p {
+
+    color: #d2dbec;
+}
+
+.features-card ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    columns: 2;
+
+    column-gap: 35px;
+}
+
+.features-card li {
+
+    margin-bottom: 14px;
+
+    color: #d2dbec;
+
+    break-inside: avoid;
+}
+
+.features-card li::before {
+
+    content: "✓";
+
+    color: #3ddc84;
+
+    font-weight: bold;
+
+    margin-right: 10px;
 }
